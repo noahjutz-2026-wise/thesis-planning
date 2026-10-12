@@ -29,8 +29,11 @@
     [Vacation],
   ),
   (
-    datetime(year: 2026, month: 10, day: 14),
-    [S2R naive one-shot + sim baselines],
+    datetime(year: 2026, month: 10, day: 12),
+    [
+      #strike[S2R naive one-shot + sim baselines] \
+      Design Architecture
+    ],
   ),
   (
     datetime(year: 2026, month: 11, day: 1),
@@ -57,10 +60,10 @@
   ),
   (
     datetime(year: 2026, month: 10, day: 1),
-    [Transfer data collected],
+    [#strike[Transfer data collected]],
   ),
   (
     datetime(year: 2026, month: 10, day: 7),
-    [obs, a spaces adjusted],
+    [#strike[obs, a spaces adjusted]],
   ),
 )
