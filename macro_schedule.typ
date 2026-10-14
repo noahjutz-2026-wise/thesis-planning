@@ -51,27 +51,31 @@
 
 #let milestones = (
   (
-      datetime(year: 2026, month: 10, day: 19),
-      [[system-sim] Adjust Obs/Act spaces (w/o cam)],
-    ),
-  (
-    datetime(year: 2026, month: 10, day: 15),
-    [#text(gray)[system-sim]$stretch(<->)^"mlagents"$gym-sim],
-  ),
-  (
-    datetime(year: 2026, month: 10, day: 16),
-    [#text(gray)[gym-sim]$stretch(<->)^(zero.slashed"MQ")$gym-all],
-  ),
-  (
-    datetime(year: 2026, month: 10, day: 17),
-    [#text(gray)[gym-all$stretch(<->)^"ref"$]runner-client #text(gray)[(control-loop)]],
-  ),
-  (
     datetime(year: 2026, month: 10, day: 19),
-    [#text(gray)[runner-client$stretch(<->)^"TCP"$]runner-server #text(gray)[(with random policy)]],
+    [[system-sim] Read into the C\# / ML-Agents codebase (32h)],
   ),
   (
-    datetime(year: 2026, month: 10, day: 22),
-    [[crs2r-train] Learner, logging, checkpointing -- *first sim train run*],
+    datetime(year: 2026, month: 10, day: 23),
+    [[system-sim] Adjust Obs/Act spaces (w/o cam) (32h)],
+  ),
+  (
+    datetime(year: 2026, month: 10, day: 24),
+    [#text(gray)[system-sim]$stretch(<->)^"mlagents"$gym-sim (4h)],
+  ),
+  (
+    datetime(year: 2026, month: 10, day: 26),
+    [#text(gray)[gym-sim]$stretch(<->)^(zero.slashed"MQ")$gym-all (8h)],
+  ),
+  (
+    datetime(year: 2026, month: 10, day: 27),
+    [#text(gray)[gym-all$stretch(<->)^"ref"$]runner-client #text(gray)[(control-loop)] (4h)],
+  ),
+  (
+    datetime(year: 2026, month: 10, day: 28),
+    [#text(gray)[runner-client$stretch(<->)^"TCP"$]runner-server #text(gray)[(with random policy)] (1h)],
+  ),
+  (
+    datetime(year: 2026, month: 11, day: 1),
+    [[crs2r-train] Learner, logging, checkpointing -- *first sim train run* (32h)],
   ),
 )
