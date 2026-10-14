@@ -50,6 +50,7 @@
 )
 
 #let milestones = (
+  // Immediate
   (
     datetime(year: 2026, month: 10, day: 19),
     [[system-sim] Read into the C\# / ML-Agents codebase (32h)],
@@ -75,7 +76,37 @@
     [#text(gray)[runner-client$stretch(<->)^"TCP"$]runner-server #text(gray)[(with random policy)] (1h)],
   ),
   (
-    datetime(year: 2026, month: 11, day: 1),
+    datetime(year: 2026, month: 10, day: 31),
     [[crs2r-train] Learner, logging, checkpointing -- *first sim train run* (32h)],
+  ),
+
+  // Future deliverables
+  (
+    datetime(year: 2026, month: 11, day: 5),
+    [Collect sim data (32h)],
+  ),
+  (
+    datetime(year: 2026, month: 11, day: 6),
+    [gym-real#text(gray)[$stretch(<->)^"ZMQ"$gym-all] (8h)],
+  ),
+  (
+    datetime(year: 2026, month: 11, day: 14),
+    [system-real#text(gray)[$stretch(<->)^"ref"$gym-real] (48h)],
+  ),
+  (
+    datetime(year: 2026, month: 11, day: 21),
+    [Experiment Pipeline (44h)]
+  ),
+  (
+    datetime(year: 2026, month: 12, day: 5),
+    [Domain Randomization (88h)]
+  ),
+  (
+    datetime(year: 2026, month: 12, day: 12),
+    [HPO (44h)]
+  ),
+  (
+    datetime(year: 2026, month: 12, day: 19),
+    [Ready to submit]
   ),
 )
