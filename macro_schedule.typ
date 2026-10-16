@@ -52,61 +52,57 @@
 #let milestones = (
   // Immediate
   (
-    datetime(year: 2026, month: 10, day: 19),
-    [[system-sim] Read into the C\# / ML-Agents codebase (32h)],
-  ),
-  (
-    datetime(year: 2026, month: 10, day: 23),
-    [[system-sim] Adjust Obs/Act spaces (w/o cam) (32h)],
+    datetime(year: 2026, month: 10, day: 17),
+    [[system-sim] Read into the C\# / ML-Agents codebase (16h)],
   ),
   (
     datetime(year: 2026, month: 10, day: 24),
-    [#text(gray)[system-sim]$stretch(<->)^"mlagents"$gym-sim (4h)],
-  ),
-  (
-    datetime(year: 2026, month: 10, day: 26),
-    [#text(gray)[gym-sim]$stretch(<->)^(zero.slashed"MQ")$gym-all (8h)],
-  ),
-  (
-    datetime(year: 2026, month: 10, day: 27),
-    [#text(gray)[gym-all$stretch(<->)^"ref"$]runner-client #text(gray)[(control-loop)] (4h)],
-  ),
-  (
-    datetime(year: 2026, month: 10, day: 28),
-    [#text(gray)[runner-client$stretch(<->)^"TCP"$]runner-server #text(gray)[(with random policy)] (1h)],
+    [[system-sim] Adjust Obs/Act spaces (44h)],
   ),
   (
     datetime(year: 2026, month: 10, day: 31),
+    [[system-sim] Apply forces / physics (44h)],
+  ),
+  (
+    datetime(year: 2026, month: 11, day: 2),
+    [#text(gray)[system-sim]$stretch(<->)^"mlagents"$gym-sim (4h)],
+  ),
+  (
+    datetime(year: 2026, month: 11, day: 4),
+    [#text(gray)[gym-sim]$stretch(<->)^(zero.slashed"MQ")$gym-all (8h)],
+  ),
+  (
+    datetime(year: 2026, month: 11, day: 5),
+    [#text(gray)[gym-all$stretch(<->)^"ref"$]runner-client #text(gray)[(control-loop)] (4h)],
+  ),
+  (
+    datetime(year: 2026, month: 11, day: 6),
+    [#text(gray)[runner-client$stretch(<->)^"TCP"$]runner-server #text(gray)[(with random policy)] (1h)],
+  ),
+  (
+    datetime(year: 2026, month: 11, day: 9),
     [[crs2r-train] Learner, logging, checkpointing -- *first sim train run* (32h)],
   ),
 
   // Future deliverables
   (
-    datetime(year: 2026, month: 11, day: 5),
+    datetime(year: 2026, month: 11, day: 14),
     [Collect sim data (32h)],
   ),
   (
-    datetime(year: 2026, month: 11, day: 6),
+    datetime(year: 2026, month: 11, day: 15),
     [gym-real#text(gray)[$stretch(<->)^"ZMQ"$gym-all] (8h)],
   ),
   (
-    datetime(year: 2026, month: 11, day: 14),
+    datetime(year: 2026, month: 11, day: 23),
     [system-real#text(gray)[$stretch(<->)^"ref"$gym-real] (48h)],
   ),
   (
-    datetime(year: 2026, month: 11, day: 21),
-    [Experiment Pipeline (44h)]
-  ),
-  (
     datetime(year: 2026, month: 12, day: 5),
-    [Domain Randomization (88h)]
-  ),
-  (
-    datetime(year: 2026, month: 12, day: 12),
-    [HPO (44h)]
+    [Domain Randomization (88h)],
   ),
   (
     datetime(year: 2026, month: 12, day: 19),
-    [Ready to submit]
+    [Ready to submit],
   ),
 )
