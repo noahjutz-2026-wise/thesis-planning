@@ -98,8 +98,12 @@
     [system-real#text(gray)[$stretch(<->)^"ref"$gym-real] (44h)],
   ),
   (
+    datetime(year: 2026, month: 11, day: 28),
+    [Measure Physical Parameters (44h)],
+  ),
+  (
     datetime(year: 2026, month: 12, day: 5),
-    [Domain Randomization (88h)],
+    [Domain Randomization (44h)],
   ),
   (
     datetime(year: 2026, month: 12, day: 19),
